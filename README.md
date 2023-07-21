@@ -33,3 +33,8 @@ Margem de lucro:
 
  Tooltip
  ![Tooltip](tooltip.jpg) 
+
+ # Insigths:
+ - a maior despesa da empresa é com despesas fixas como aluguel e INSS(em todas as unidades);
+ - o saldo mensal aumentou ao longo do ano de 2022;
+ - a margem de lucro em 2022 foi de 57%.
