@@ -16,14 +16,17 @@ Margem de lucro:
  &nbsp;
 ```Margem = ([Entradas] - [Saídas]) / [Entradas]```
  &nbsp;
+
  Entradas:
  &nbsp;
  ```Entradas = CALCULATE(SUM('LANÇAMENTOS'[VALOR]),'LANÇAMENTOS'[TIPO] = "Receber", 'LANÇAMENTOS'[SITUAÇÃO] = "Aberto")```
  &nbsp;
+
  Saídas:
  &nbsp;
  ```Saídas = CALCULATE(SUM('LANÇAMENTOS'[VALOR]),'LANÇAMENTOS'[TIPO]="Pagar", 'LANÇAMENTOS'[SITUAÇÃO] = "Aberto")```
  &nbsp;
+ 
  Saldo:
  &nbsp;
  ```Saldo = SUM('LANÇAMENTOS'[Valor negativo e positivo])```
